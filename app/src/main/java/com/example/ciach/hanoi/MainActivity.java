@@ -13,13 +13,15 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
 
-public class MainActivity extends AppCompatActivity implements View.OnTouchListener {
+public class MainActivity extends AppCompatActivity implements View.OnTouchListener
+{
 
     ImageView gameView;
     float x, y;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
 
         // Drawing in a separate method
@@ -29,7 +31,8 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
     }
 
     // The draw() method
-    public void draw() {
+    public void draw()
+    {
 
         // Declare an object of type Bitmap
         Bitmap blankBitmap;
